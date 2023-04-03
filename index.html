@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculadora</title>
+  </head>
+  <body>
+
+	<h3> ++  Nose aun que crear por lo que para el primer ejercicio decidí hacer una calculadora y de ahi ver como sigo ++</h3>
+
+    <h1>Calculadora</h1>
+	<h2></h2>
+	<b><b><br>
+    <input type="text" id="resultado" value="">
+    <br>
+    <br>
+    <table>
+      <tr>
+        <td><button onclick="agregarNumero('7')">7</button></td>
+        <td><button onclick="agregarNumero('8')">8</button></td>
+        <td><button onclick="agregarNumero('9')">9</button></td>
+        <td><button onclick="operacion('+')">+</button></td>
+      </tr>
+      <tr>
+        <td><button onclick="agregarNumero('4')">4</button></td>
+        <td><button onclick="agregarNumero('5')">5</button></td>
+        <td><button onclick="agregarNumero('6')">6</button></td>
+        <td><button onclick="operacion('-')">-</button></td>
+      </tr>
+      <tr>
+        <td><button onclick="agregarNumero('1')">1</button></td>
+        <td><button onclick="agregarNumero('2')">2</button></td>
+        <td><button onclick="agregarNumero('3')">3</button></td>
+        <td><button onclick="operacion('*')">*</button></td>
+      </tr>
+      <tr>
+        <td><button onclick="agregarNumero('0')">0</button></td>
+        <td><button onclick="operacion('/')">/</button></td>
+        <td><button onclick="limpiar()">C</button></td>
+        <td><button onclick="calcular()">=</button></td>
+      </tr>
+    </table>
+
+	<script src="calculadora.js"></script>
+  </body>
+</html>
